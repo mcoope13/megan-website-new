@@ -1,5 +1,5 @@
 //Skills Div Color Change
-var skills = document.getElementById("skills");
+/*var skills = document.getElementById("skills");
 var skillsColorChange = function () {
     skills.style.background = "rgb(221, 255, 247)";
 };
@@ -18,7 +18,7 @@ var portfolioColorBack = function () {
     portfolio.style.background = "rgb(255,255,255)";
 };
 portfolio.addEventListener('mouseover', portfolioColorChange);
-portfolio.addEventListener('mouseout', portfolioColorBack);
+portfolio.addEventListener('mouseout', portfolioColorBack); */
 
 
 //Contact Div Color Change
@@ -55,7 +55,7 @@ research.addEventListener('mouseover', researchColorChange);
 research.addEventListener('mouseout', researchColorBack);
 
 //License Span Color Change
-var license = document.getElementById("license");
+/*var license = document.getElementById("license");
 var licenseColorChange = function() {
         license.style.color = "rgb(255, 166, 158)";
 };
@@ -63,7 +63,7 @@ var licenseColorBack = function () {
     license.style.color = "rgb(0,0,0)";
 };
 license.addEventListener('mouseover', licenseColorChange);
-license.addEventListener('mouseout', licenseColorBack);
+license.addEventListener('mouseout', licenseColorBack); */
 
 //Code Span Color Change
 var code = document.getElementById("code");
@@ -75,3 +75,14 @@ var codeColorBack = function () {
 };
 code.addEventListener('mouseover', codeColorChange);
 code.addEventListener('mouseout', codeColorBack);
+
+//Logo Color Change
+var logo = document.getElementById("logo");
+var logoColorChange = function() {
+        logo.style.color = "rgb(59, 211, 86)";
+};
+var logoColorBack = function () {
+    logo.style.color = "rgb(0,0,0)";
+};
+logo.addEventListener('mouseover', logoColorChange);
+logo.addEventListener('mouseout', logoColorBack);

@@ -1,5 +1,5 @@
 //Skills Div Color Change
-var skills = document.getElementById("skills");
+/* var skills = document.getElementById("skills");
 var skillsColorChange = function () {
     skills.style.background = "rgb(221, 255, 247)";
 };
@@ -7,7 +7,7 @@ var skillsColorBack = function () {
     skills.style.background = "rgb(255,255,255)";
 };
 skills.addEventListener('mouseover', skillsColorChange);
-skills.addEventListener('mouseout', skillsColorBack);
+skills.addEventListener('mouseout', skillsColorBack); */
 
 //Portfolio Div Color Change
 var portfolio = document.getElementById("portfolio");
@@ -33,7 +33,7 @@ contact.addEventListener('mouseover', contactColorChange);
 contact.addEventListener('mouseout', contactColorBack);
 
 //Write Span Color Change
-var write = document.getElementById("write");
+/* var write = document.getElementById("write");
 var writeColorChange = function() {
         write.style.color = "rgb(60, 145, 230)";
 };
@@ -41,7 +41,7 @@ var writeColorBack = function () {
     write.style.color = "rgb(0,0,0)";
 };
 write.addEventListener('mouseover', writeColorChange);
-write.addEventListener('mouseout', writeColorBack);
+write.addEventListener('mouseout', writeColorBack); */
 
 //Research Span Color Change
 var research = document.getElementById("research");
@@ -75,3 +75,19 @@ var codeColorBack = function () {
 };
 code.addEventListener('mouseover', codeColorChange);
 code.addEventListener('mouseout', codeColorBack);
+
+//Logo Color Change
+var logo = document.getElementById("logo");
+var logoColorChange = function() {
+        logo.style.color = "rgb(59, 211, 86)";
+};
+var logoColorBack = function () {
+    logo.style.color = "rgb(0,0,0)";
+};
+logo.addEventListener('mouseover', logoColorChange);
+logo.addEventListener('mouseout', logoColorBack);
+
+//Author Appear
+// var career = document.getElementById("career");
+
+

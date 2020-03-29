@@ -44,7 +44,7 @@ write.addEventListener('mouseover', writeColorChange);
 write.addEventListener('mouseout', writeColorBack);
 
 //Research Span Color Change
-var research = document.getElementById("research");
+/* var research = document.getElementById("research");
 var researchColorChange = function() {
         research.style.color = "rgb(124, 198, 254)";
 };
@@ -52,7 +52,7 @@ var researchColorBack = function () {
     research.style.color = "rgb(0,0,0)";
 };
 research.addEventListener('mouseover', researchColorChange);
-research.addEventListener('mouseout', researchColorBack);
+research.addEventListener('mouseout', researchColorBack); */
 
 //License Span Color Change
 var license = document.getElementById("license");
@@ -75,3 +75,14 @@ var codeColorBack = function () {
 };
 code.addEventListener('mouseover', codeColorChange);
 code.addEventListener('mouseout', codeColorBack);
+
+//Logo Color Change
+var logo = document.getElementById("logo");
+var logoColorChange = function() {
+        logo.style.color = "rgb(59, 211, 86)";
+};
+var logoColorBack = function () {
+    logo.style.color = "rgb(0,0,0)";
+};
+logo.addEventListener('mouseover', logoColorChange);
+logo.addEventListener('mouseout', logoColorBack);

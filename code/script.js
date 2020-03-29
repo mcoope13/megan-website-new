@@ -66,7 +66,7 @@ license.addEventListener('mouseover', licenseColorChange);
 license.addEventListener('mouseout', licenseColorBack);
 
 //Code Span Color Change
-var code = document.getElementById("code");
+/* var code = document.getElementById("code");
 var codeColorChange = function() {
         code.style.color = "rgb(237, 106, 94)";
 };
@@ -74,4 +74,15 @@ var codeColorBack = function () {
     code.style.color = "rgb(0,0,0)";
 };
 code.addEventListener('mouseover', codeColorChange);
-code.addEventListener('mouseout', codeColorBack);
+code.addEventListener('mouseout', codeColorBack); */
+
+//Logo Color Change
+var logo = document.getElementById("logo");
+var logoColorChange = function() {
+        logo.style.color = "rgb(59, 211, 86)";
+};
+var logoColorBack = function () {
+    logo.style.color = "rgb(0,0,0)";
+};
+logo.addEventListener('mouseover', logoColorChange);
+logo.addEventListener('mouseout', logoColorBack);

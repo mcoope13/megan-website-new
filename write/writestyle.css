@@ -1,0 +1,56 @@
+#write {
+    color: rgb(60, 145, 230);
+    border-bottom: 1px solid rgb(60, 145, 230);
+}
+
+#storytime p {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.25em;
+}
+
+#career {
+    background-color: rgb(238, 235, 208);
+    /* color: rgb(238, 235, 208); */
+    font-family: 'Coming Soon', cursive;
+    font-size: 4em;
+    padding: 20px;
+    width: 33%;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    border: solid 1px black;
+}
+
+#career:hover {
+    transform: scale(1.25);
+    transition-duration: 2.0s;
+}
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.careeropt {
+    background-color: rgb(238, 235, 208);
+    font-family: 'Coming Soon', cursive;
+    font-size: 2em;
+    padding: 20px;
+    width: 23%;
+    text-align: center;
+    align-content: center;
+    margin: 4px;
+    border: solid 1px black;
+}
+
+.careeropt:hover {
+    transform: scale(1.1);
+    transition-duration: 1.0s;
+}
+

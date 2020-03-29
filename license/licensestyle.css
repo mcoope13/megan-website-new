@@ -1,0 +1,20 @@
+#license {
+    color: rgb(255, 166, 158);
+    border-bottom: 1px solid rgb(255, 166, 158);
+}
+
+#rights p {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.25em;
+}
+
+.copytrade {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.copytrade img {
+    width: 25%;
+    padding: 10px 50px;
+}
